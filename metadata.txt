@@ -1,0 +1,9 @@
+[general]
+name=IPBA
+description=Invasion Percolation-Based Algorithm (IPBA)
+about=Plugin to delineate multiple drainage basins through an extension of the Invasion Percolation-Based Algorithm (IPBA)
+version=1.0
+qgisMinimumVersion=3.4
+author=Alisson Frota
+email=alissonfrotat@gmail.com
+repository=https://github.com/AlissonFrota/IPBA_qgis

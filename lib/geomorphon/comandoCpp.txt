@@ -1,0 +1,5 @@
+cl /LD /O2 /fp:fast /arch:AVX2 /openmp /DNDEBUG geomorphon.cpp /Fe:geomorphon.dll (Windows)
+
+g++ -O3 -ffast-math -march=native -fopenmp -DNDEBUG -shared -fPIC geomorphon.cpp -o libgeomorphons.so (Linux)
+
+Não vou fazer para Mac
